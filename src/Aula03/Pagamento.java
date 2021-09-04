@@ -1,4 +1,4 @@
-package Aula3;
+package Aula03;
 
 public class Pagamento {
 

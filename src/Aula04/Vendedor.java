@@ -1,11 +1,12 @@
-package Aula3;
+package Aula04;
 
 public class Vendedor {
-	public String nome;
-	public double salarioFixo;
-	public double venda;
+	//ATRIBUTOS
+	private String nome;
+	private double salarioFixo;
+	private double venda;
 	
-	//metodo construtor vazio
+	//MÉTODO CONSTRUTOR
 	public Vendedor() {
 		
 	}
@@ -24,7 +25,32 @@ public class Vendedor {
 		this.salarioFixo = salarioFixo;
 		this.venda = venda;
 	}
-	
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public double getSalarioFixo() {
+		return salarioFixo;
+	}
+
+	public void setSalarioFixo(double salarioFixo) {
+		this.salarioFixo = salarioFixo;
+	}
+
+	public double getVenda() {
+		return venda;
+	}
+
+	public void setVenda(double venda) {
+		this.venda = venda;
+	}
+
+	//MÉTODOS DA CLASSE
 	public double calculaSalarioFinal(){
 		double salarioFinal;
 		salarioFinal = salarioFixo+venda*0.15;
