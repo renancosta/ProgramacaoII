@@ -9,6 +9,15 @@ public class Nota {
 		
 	}
 	
+	public Nota(String nomeDisciplina, float nota, int faltas) {
+		super();
+		this.nomeDisciplina = nomeDisciplina;
+		this.nota = nota;
+		this.faltas = faltas;
+	}
+
+
+
 	public String getNomeDisciplina() {
 		return nomeDisciplina;
 	}
