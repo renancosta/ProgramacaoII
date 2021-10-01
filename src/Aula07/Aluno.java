@@ -15,7 +15,7 @@ public class Aluno {
 		this.email = email;
 		this.matricula  = matricula;
 	}
-
+	
 	public String getNome() {
 		return nome;
 	}
@@ -43,6 +43,14 @@ public class Aluno {
 	@Override
 	public String toString() {
 		return nome+" - "+matricula;
+	}
+	
+	public String gerarGrade() {
+		return "A grade do aluno"+nome+" é: ";
+	}
+	
+	public String imprimirAluno(Aluno a) {
+		return "Aluno: "+a.getNome()+" - "+a.getMatricula();
 	}
 
 }

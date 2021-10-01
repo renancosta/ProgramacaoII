@@ -1,10 +1,12 @@
-package Aula07;
+package Aula08;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class GeraTurma {
+import Aula07.Aluno;
+
+public class GeraTurmaUsandoMetodoConstrutor {
 
 	public static void main(String[] args) {
 
