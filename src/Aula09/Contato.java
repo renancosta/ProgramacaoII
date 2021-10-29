@@ -47,4 +47,28 @@ public class Contato {
 		this.email = email;
 	}
 	
+	public int meuMetodo(double x ) {
+
+        if (x == 1 || x == 2) {
+
+            return 1;
+
+        }
+
+        double raiz = Math.sqrt(x);
+
+        for (int i = 2; i <= raiz; i++) {
+
+            if (x % i == 0) {
+
+                return 0;
+
+            }
+
+        }
+
+        return 1;
+
+    }
+	
 }
