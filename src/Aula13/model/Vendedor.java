@@ -18,8 +18,6 @@ public class Vendedor {
 		this.faixa_comissao = faixa_comissao;
 	}
 
-
-
 	public int getCod_vendedor() {
 		return cod_vendedor;
 	}
